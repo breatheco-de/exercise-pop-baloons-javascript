@@ -1,6 +1,6 @@
 # Pop Balloons game using Javascript and the DOM (a little)
 
-This is an amazing game to practice HTML, CSS and a little of Javascript.
+This is an amazing game to practice HTML, CSS and a little Javascript.
 The game goal is to POP al the balloons by clicking on them.
 
 # Instructions
