@@ -5,7 +5,7 @@ The game goal is to POP al the balloons by clicking on them.
 
 # 📝 Instructions
 
-![Balloon Pop Game with HTML/CSS and Javascript](./preview.gif)
+![Balloon Pop Game with HTML/CSS and Javascript](https://github.com/breatheco-de/exercise-pop-baloons-javascript/blob/master/preview.gif?raw=true)
 
 Build a game with the following workflow:
 
@@ -16,7 +16,7 @@ Build a game with the following workflow:
 
 # 💪 Strategy
 
-![Strategy to complete the pop balloons](./strategy.png)
+![Strategy to complete the pop balloons](https://github.com/breatheco-de/exercise-pop-baloons-javascript/blob/master/strategy.png?raw=true)
 
 1. First, declare an array of 20 colors, each color will represent a balloon, the colors can repeat.
 2. To pop a balloon, you will have to turn the value on that balloon position on the array equal to `null`. 
