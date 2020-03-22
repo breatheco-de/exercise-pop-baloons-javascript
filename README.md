@@ -1,9 +1,9 @@
-# Pop Balloons game using Javascript and the DOM (a little)
+# 🎈🎊 Pop Balloons game using Javascript, HTML/CSS
 
 This is an amazing game to practice HTML, CSS and a little Javascript.
 The game goal is to POP al the balloons by clicking on them.
 
-# Instructions
+# 📝 Instructions
 
 ![Balloon Pop Game with HTML/CSS and Javascript](./preview.gif)
 
@@ -14,7 +14,7 @@ Build a game with the following workflow:
 3. When the user clicks on it the balloon disappears (pops) from the screen.
 4. When all the 20 balloons have disappeared the website reloads and the game starts again.
 
-#  Strategy
+# 💪 Strategy
 
 ![Strategy to complete the pop balloons](./strategy.png)
 
