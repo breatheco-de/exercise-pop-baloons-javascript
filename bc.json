@@ -6,7 +6,7 @@
     "solution": "https://github.com/breatheco-de/exercise-pop-baloons-javascript/tree/solution",
     "preview": "https://github.com/breatheco-de/exercise-pop-baloons-javascript/blob/master/preview.gif?raw=true",
 	"duration" : 8,
-	"technologies": ["javascript","html","css","the DOM"],
+	"technologies": ["javascript","html","css","the DOM","js events"],
 	"description" : "Practice your entry-level skills in Javascript, The DOM and HTML/CSS by building a Pop Balloons Game.",
 	"talents": [
 		{ "badge": "identator", "points": 6 },
