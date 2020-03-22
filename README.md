@@ -20,9 +20,17 @@ Build a game with the following workflow:
 
 1. First, declare an array of 20 colors, each color will represent a balloon, the colors can repeat.
 2. To pop a balloon, you will have to turn the value on that balloon position on the array equal to `null`. 
-3. Make a function that creates the html for just one balloon, and receives the color and position of the balloon.
+3. Loop all the colors and make the html string for each balloon, you should generate a big html string like this, and add it into the DOM:
+
 ```
-const renderOneBalloon = function(position, color){} // Returns the HTML string of the balloon
+<div class="balloon active"></div>
+<div class="balloon popped"></div>
+<div class="balloon active"></div>
+<div class="balloon active"></div>
 ```
-4. Make a function that renders the balloons: Maps all the balloons and adds them to the innterHTML of the `<div id="balloon-map">` using document.querySelector.
-5. Make a function pops the balloon: Set the color of the balloon equal to `null` on that position and re-render all the colors;
+
+4. Add that string to the innterHTML of the `<div id="balloon-map">` element using document.querySelector.
+
+5. Update your function that renders the ballons to add also an onClick on each balloon div to listen to the click.
+
+6. When a balloon is clicked, go the array of colors and turn the color back to null.
