@@ -1,0 +1,21 @@
+{
+	"title" : "Pop Balloons using HTML/CSS and a little Javascript",
+	"slug" : "pop-baloons-javascript",
+	"status": "published",
+    "solution": "https://github.com/breatheco-de/exercise-pop-baloons-javascript/tree/solution",
+    "preview": "https://github.com/breatheco-de/exercise-pop-baloons-javascript/blob/master/preview.gif?raw=true",
+	"duration" : 8,
+	"description" : "Practice your entry-level skills in Javascript, The DOM and HTML/CSS by building a Pop Balloons Game.",
+	"talents": [
+		{ "badge": "identator", "points": 6 },
+		{ "badge": "tag-master", "points": 3 },
+		{ "badge": "select-everything", "points": 10 },
+		{ "badge": "position-vs-display", "points": 10 },
+		{ "badge": "be-dry", "points": 10 },
+		{ "badge": "css-inspector", "points": 5 },
+		{ "badge": "window-lover", "points": 3 },
+		{ "badge": "source-inspector", "points": 5 },
+		{ "badge": "abc", "points": 6 },
+		{ "badge": "functional-developer", "points": 6 }
+	]
+}
