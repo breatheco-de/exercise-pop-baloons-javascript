@@ -7,7 +7,8 @@ The game goal is to POP al the balloons by clicking on them.
 
 This project comes with the necessary files to start working, but you have two options to start:
 
-a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-pop-baloons-javascript.git
+
+a) Use gitpod: open this link in your browser with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-pop-baloons-javascript.git
 
 b) You can clone this repository on your local computer:
 ```sh
