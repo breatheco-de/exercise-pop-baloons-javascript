@@ -1,7 +1,7 @@
 # Pop Balloons game using Javascript, HTML/CSS 🎈🎊
 
 This is an amazing game to practice HTML, CSS and a little Javascript.
-The game goal is to POP al the balloons by clicking on them.
+The game goal is to POP all the balloons by clicking on them.
 
 ## 🌱  How to start this project
 
@@ -22,8 +22,8 @@ Run the website by typing the following command on your terminal: `$ npx http-se
 
 Build a game with the following workflow:
 
-1. When the website loads (`window.onload`) you have to render all the ballons.
-2. Every ballon needs to have an onClick attached to listen to when the user clicks on it.
+1. When the website loads (`window.onload`) you have to render all the balloons.
+2. Every balloon needs to have an onClick attached to listen to when the user clicks on it.
 3. When the user clicks on it the balloon disappears (pops) from the screen.
 4. When all the 20 balloons have disappeared the website reloads and the game starts again.
 
@@ -42,7 +42,7 @@ Build a game with the following workflow:
 <div class="balloon active"></div>
 ```
 
-4. Add that string to the innterHTML of the `<div id="balloon-map">` element using document.querySelector.
+4. Add that string to the innerHTML of the `<div id="balloon-map">` element using document.querySelector.
 
 5. Update your function that renders the ballons to add also an onClick on each balloon div to listen to the click.
 
