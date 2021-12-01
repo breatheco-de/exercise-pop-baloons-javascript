@@ -34,7 +34,7 @@ Crea un juego con el siguiente flujo de trabajo:
 
 1. Primero, declara un array o arreglo de 20 colores, cada color representará un globo, los colores se pueden repetir. 
 2. Para reventar un globo, tendrás que convertir el valor de esa posición del globo sea igual a `null`.
-3. Haz un loop o bucle con todos los colores y crea el string html para cada globo, debes generar un string html como éste y añadirlo al DOM:
+3. Haz un loop o bucle con todos los colores y crea el string html para cada globo, debes generar un string html como este y añadirlo al DOM:
 
 ```
 <div class="balloon active"></div>
