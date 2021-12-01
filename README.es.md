@@ -1,12 +1,12 @@
 # Pop Balloons game using Javascript, HTML/CSS 🎈🎊
 
-Este es un buen juego para practicar HTML, CSS y un poco de Javascript. El objetivo de ete juego es reventar todos los globos haciendo clic en ellos.
+Este es un buen juego para practicar HTML, CSS y un poco de Javascript. El objetivo de este juego es reventar todos los globos haciendo clic en ellos.
 
 ## 🌱  Cómo iniciar este proyecto
 
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
-a) Abrir este link con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-pop-baloons-javascript.git
+a) Abrir este enlace con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-pop-baloons-javascript.git
 
 b) Clonar este repositorio localmente en tu computador:
 ```sh
@@ -26,9 +26,9 @@ Crea un juego con el siguiente flujo de trabajo:
 1. Cuando el sitio web cargue (`window.onload`) tienes que mostrar (render) todos los globos.
 2. Cada globo debe tener un onClick para poder escuchar cuando el usuario hace clic en él
 3. Cuando el usuario hace clic en el globo, éste desaparece de la pantalla
-4. Cuando los 20 globos hayan desaparecido el sitio de web se recarga y el juego comienza otra vez.
+4. Cuando los 20 globos hayan desaparecido el sitio web se recarga y el juego comienza otra vez.
 
-## 💪 Estrategis
+## 💪 Estrategia
 
 ![Strategy to complete the pop balloons](https://github.com/breatheco-de/exercise-pop-baloons-javascript/blob/master/strategy.png?raw=true)
 
