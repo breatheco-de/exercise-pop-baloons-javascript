@@ -1,4 +1,6 @@
-# Pop Balloons game using Javascript, HTML/CSS 🎈🎊
+<!--hide-->
+# Juego Pop Balloons usando Javascript, HTML/CSS 🎈🎊
+<!--endhide-->
 
 Este es un buen juego para practicar HTML, CSS y un poco de Javascript. El objetivo de este juego es reventar todos los globos haciendo clic en ellos.
 
@@ -25,8 +27,8 @@ Crea un juego con el siguiente flujo de trabajo:
 
 1. Cuando el sitio web cargue (`window.onload`) tienes que mostrar (render) todos los globos.
 2. Cada globo debe tener un onClick para poder escuchar cuando el usuario hace clic en él
-3. Cuando el usuario hace clic en el globo, éste desaparece de la pantalla
-4. Cuando los 20 globos hayan desaparecido el sitio web se recarga y el juego comienza otra vez.
+3. Cuando el usuario hace clic en el globo, este desaparece de la pantalla
+4. Cuando los 20 globos hayan desaparecido, el sitio web se recarga y el juego comienza otra vez.
 
 ## 💪 Estrategia
 
