@@ -1,24 +1,49 @@
 // we declare a new global variable containing an array that represents the ballons map
 // you have to add more colors into the ballonsMap array
 let ballonsMap = ['green'];
+const colors = ["red", "blue", "black", "green", "pink", "yellow", "gray", "brown", "orange", "purple", "cyan"];
 
-// poping a balloon is basically turning his color to null (no color)
-const popBalloon = (position) => {
-    // set the color to null on the balloon position
-    render();
-}
+let balloonsAlive = 20;
+let start = "";
 
-const render = () => {
-    
-    // convert ballons map of colors into real html balloons
-    const ballons = ballonsMap.map((color, position) => {
-        return `<div class="balloon active"></div>`; // <--- render each balloon
+
+for (let i = 0; i < balloonsAlive; i++) {
+    const randomColor = colors[Math.floor(Math.random()*colors.length)];
+    let balloon = document.createElement("div");
+    balloon.classList.add("balloon", "balloon");
+    balloon.style.background= randomColor;
+    balloon.id = i;
+
+    //agregar evenListener ---> click 
+    balloon.addEventListener("click", e=>{
+        if (balloonsAlive===20){
+            start = Date.now() // nos genera la fecha actual
+        }
+        balloon.style.visibility="hidden";
+        balloonsAlive--;
+        render();
     });
 
-    document.querySelector("#balloon-count").innerHTML = ballons.filter(b => b !== null).length; // <-- render the balloon count into the DOM
-    document.querySelector("#balloon-map").innerHTML = ballons.join(''); // <-- render the balloons into the DOM
+    document.querySelector("#balloon-map").appendChild(balloon)
+}
 
-    if(activeBalloons == 0) window.location.reload(); // <--- reload website when no more balloons are left
+
+const render = () => {
+
+    document.querySelector("#balloon-count").innerHTML= balloonsAlive;
+
+    if (balloonsAlive===0){
+        console.log((Date.now() - start)/1000)
+        document.querySelector("#balloon-map").innerHTML= `
+        <h3> Tiempo: ${(Date.now() - start)/1000} segundos</h3>
+        <h4>Volver a jugar?</h4>
+        <button id="restartGame">Volver a jugar</button>
+        `
+        document.querySelector("#restartGame").addEventListener("click", ()=>{
+            window.location.reload()
+        })
+    }
+
 }
 
 // this makes the "render" function trigger when the website starts existing
